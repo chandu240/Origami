@@ -1,0 +1,20 @@
+
+  h1 {
+    color: dodgerblue;
+  }
+
+  * {
+    border:white;
+  }
+
+  .header{
+      background-color:khaki ;
+      display: flex;
+      justify-content:  space-between;
+  }
+  .grid{
+      background-color: rgb(154, 234, 240);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
