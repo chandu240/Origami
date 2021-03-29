@@ -6,9 +6,14 @@
   * {
     border:white;
   }
-
+  .site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    padding-left: 1cm;
+  }
   .header{
-      background-color:khaki ;
+      background-color:#e1f2ff;
       display: flex;
       justify-content:  space-between;
   }
@@ -17,4 +22,18 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
+      margin: 0.5cm;
+  }
+  .Origami{
+    margin:0.5cm;
+    padding:0.5cm;
+    background-color:#ffda  
+
+  }
+  .body{
+    margin:0px
+  }
+  .menu{
+    border-radius: 2cm;
+    border:red;
   }
