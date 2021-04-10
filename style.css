@@ -33,7 +33,25 @@
   .body{
     margin:0px
   }
+  .Origami:any-link{
+    text-decoration: dotted
+  }
   .menu{
     border-radius: 2cm;
     border:red;
+  }
+  a:link{
+    color: rgb(4, 202, 202);
+  }
+  a:visited{
+    color: darkcyan;
+  }
+  .Origami:hover{
+    transform: scale(1.2);
+  }
+  img{
+    position: relative;
+  }
+  p{
+    position: absolute;
   }
